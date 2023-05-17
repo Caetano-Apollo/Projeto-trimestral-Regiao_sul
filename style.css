@@ -1,0 +1,621 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    height: 6vh;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+
+.redireciona_lista{
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.home{
+    display: flex;
+    height: 10px;
+    width: 10px;
+    margin-left: 20px;
+    position: relative;
+    bottom: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.RS{
+    display: flex;
+    height: 10px;
+    width: 10px;
+    margin-left: 100px;
+    position: relative;
+    bottom: 33px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.SC{
+    display: flex;
+    height: 10px;
+    width: 10px;
+    margin-left: 150px;
+    position: relative;
+    bottom: 43px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.PR{
+    display: flex;
+    height: 10px;
+    width: 10px;
+    margin-left: 200px;
+    position: relative;
+    bottom: 53px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.estados{
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+
+.lista_dos_estados{
+    position: relative;
+    margin-left: 527px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cada_estado{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*Rio Grande do Sul */
+
+#pagina-RS{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/68/S%C3%ADtio_Arqueol%C3%B3gico_de_S%C3%A3o_Miguel_Arcanjo_01.jpg);
+    background-size: 100%;
+}
+
+.titulo_RS{
+    height: 4vh;
+    width: 18vw;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+    border: 1px solid black;
+    left: 620px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: white;
+}
+
+.info_RS{
+    position: relative;
+    left: 200px;
+    top: 50px;
+    text-align: justify;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 40vh;
+    width: 16vw;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    background-color: white;
+}
+
+.texto_rs{
+    font-size: 12px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.comidas_tipicas{
+    margin-top: -250px;
+    margin-left: 640px;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 320px;
+    width: 750px;
+    background-color: white;
+}
+
+.titulo_comidas{
+    padding-left: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.lista_comidas{
+    left: 650px;
+    padding-left: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 13px;
+    list-style: none;
+}
+
+.bandeira_RS{
+    margin-left: 170px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 27vh;
+    width: 20vw;
+    background-color: white;
+}
+
+#titulo_bandeira{
+    text-align: left;
+    padding-left: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.img_RS{
+    width: 15vw;
+    height: 20vh;
+    border-radius: 3px;
+    left: 100px;
+}
+
+.musica_RS{
+    margin-left: 700px;
+    margin-top: -200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 600px;
+    height: 300px;
+    background-color: white;
+}
+
+#titulo_musica_rs{
+    text-align: left;
+    padding-left: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.audio_1_rs{
+    position: relative;
+    left: 50px;
+    width: 150px;
+    height: 50px;
+}
+
+.audio_2_rs{
+    position: relative;
+    left: 80px;
+    width: 150px;
+    height: 50px; 
+}
+
+.audio_3_rs{
+    position: relative;
+    left: 110px;
+    width: 150px;
+    height: 50px;
+}
+
+.audio_4_rs{
+    position: relative;
+    left: 140px;
+    width: 150px;
+    height: 50px;
+    top: 60px;
+}
+
+.audio_5_rs{
+    position: relative;
+    left: 180px;
+    width: 150px;
+    height: 50px;
+    top: 60px;
+}
+
+/* Santa Catarina */
+
+.pagina-SC{
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/d7/f2/b8/dsc-1312a-largejpg.jpg?w=1200&h=1200&s=1);
+    background-size: 100%;
+}
+
+.titulo_SC{
+    height: 4vh;
+    width: 18vw;
+    border-radius: 5px;
+    position: relative;
+    top: 40px;
+    border: 1px solid black;
+    left: 645px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.info_SC{
+    position: relative;
+    left: 200px;
+    top: 50px;
+    text-align: justify;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 40vh;
+    width: 16vw;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    background-color: white;
+}
+
+.texto_SC{
+    font-size: 12px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.bandeira_SC{
+    margin-left: 170px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 27vh;
+    width: 20vw;
+    background-color: white;
+}
+
+
+#titulo_bandeira{
+    text-align: left;
+    padding-left: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.img_SC{
+    width: 15vw;
+    height: 20vh;
+    border-radius: 3px;
+    left: 100px;
+}
+
+.musica_sc{
+    margin-left: 700px;
+    margin-top: -200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 600px;
+    height: 300px;
+    background-color: white;
+}
+
+
+#titulo_musica_sc{
+    text-align: left;
+    padding-left: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.audio_1_sc{
+    position: relative;
+    left: 50px;
+    width: 150px;
+    height: 50px;
+}
+
+.audio_2_sc{
+    position: relative;
+    left: 80px;
+    width: 150px;
+    height: 50px; 
+}
+
+.audio_3_sc{
+    position: relative;
+    left: 110px;
+    width: 150px;
+    height: 50px;
+}
+
+.audio_4_sc{
+    position: relative;
+    left: 140px;
+    width: 150px;
+    height: 50px;
+    top: 60px;
+}
+
+.audio_5_sc{
+    position: relative;
+    left: 180px;
+    width: 150px;
+    height: 50px;
+    top: 60px;
+}
+
+/* Paraná */
+
+.pagina-PR{
+    background-image: url(https://www.destino.foz.br/wp-content/uploads/2022/01/002-%E2%80%93-Cataratas-do-Iguacu.jpg);
+    background-size: 100%;
+}
+
+.titulo_PR{
+    height: 4vh;
+    width: 18vw;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+    border: 1px solid black;
+    left: 630px;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.info_PR{
+    position: relative;
+    left: 200px;
+    top: 50px;
+    text-align: justify;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 40vh;
+    width: 16vw;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    background-color: white;
+}
+
+.texto_PR{
+    font-size: 12px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.bandeira_PR{
+    margin-left: 170px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 27vh;
+    width: 20vw;
+    background-color: white;
+}
+
+#titulo_bandeira{
+    text-align: left;
+    padding-left: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.img_PR{
+    width: 15vw;
+    height: 20vh;
+    border-radius: 3px;
+    left: 100px;
+}
+
+.musica_PR{
+    margin-left: 700px;
+    margin-top: -200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 600px;
+    height: 300px;
+    background-color: white;
+}
+
+#titulo_musica_PR{
+    text-align: left;
+    padding-left: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.audio_1_PR{
+    position: relative;
+    left: 50px;
+    width: 150px;
+    height: 50px;
+}
+
+.audio_2_PR{
+    position: relative;
+    left: 80px;
+    width: 150px;
+    height: 50px; 
+}
+
+.audio_3_PR{
+    position: relative;
+    left: 110px;
+    width: 150px;
+    height: 50px;
+}
+
+.audio_4_PR{
+    position: relative;
+    left: 140px;
+    width: 150px;
+    height: 50px;
+    top: 60px;
+}
+
+.audio_5_PR{
+    position: relative;
+    left: 180px;
+    width: 150px;
+    height: 50px;
+    top: 60px;
+}
+
+.mapa-regiao{
+    background-image: url(https://rodoviariaonline.com.br/wp-content/uploads/2018/09/pontos-turisticos-da-regiao-sul-veja-aqui-os-7-mais-marcantes-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 70vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem_regiao-sul{
+    margin: 2vh 0 0 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    height: 400px;
+    width: 400px;
+}
+
+
+.legenda_imagem-sul{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    padding: 3px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh;
+}
+
+.bandeira-comunidade{
+    border-radius: 5px;
+}
+
+.regiao-sul{
+    text-align: center;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+.primeira-faixa{
+    background-color: rgb(1, 1, 202);
+    display: flex;
+    height: 45px;
+}
+
+.div-1{
+    color: rgb(1, 1, 202);
+}
+
+.segunda-faixa{
+    background-color: rgb(202, 44, 44);
+    display: flex;
+    height: 45px;
+}
+
+.div-2{
+    color: rgb(202, 44, 44);
+}
+
+#sobre-a-regiao{
+    padding: 20vh;
+    background-image: url(https://static.todamateria.com.br/upload/54/17/541775e12aac4-mata-das-araucarias.jpg?auto_optimize=low);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-regiao{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin: 2vh 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 5vh;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.titulo-pag-1{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    padding: 2vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Raleway', sans-serif;
+}
+
+.terceira-faixa{
+    background-color: rgb(105, 206, 96);
+    display: flex;
+    height: 45px;
+}
+
+.div-3{
+    color: rgb(105, 206, 96);
+}
+
+.masc-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10vh;
+    background-image: url(https://www.melhoresdestinos.com.br/wp-content/uploads/2019/10/ilha-do-campeche-florianopolis-capa2019-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.Mascote{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.img-mascote{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 2vh 0 0 0;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
